@@ -1,0 +1,296 @@
+/* FUENTES TIPOGRAFICAS */
+
+@font-face {
+    font-family: "fanwood";
+    src: url("assest/fanwood/fanwood.regular.ttf");
+    }
+
+@font-face {
+    font-family: "fanwood-italic";
+    src: url("assest/fanwood/fanwood.italic.ttf");
+    }
+
+/*ESTILOS PROPIOS */
+
+/*MENU*/
+.nav{
+    background-color: #F0E7D9;
+}
+
+.nav_logo{
+    width: 120px;
+    height: auto;
+}
+
+.menu_item{
+    font-family: 'Montserrat', sans-serif;
+    color: #484848;
+
+}
+
+/*FOOTER*/
+.footer_fondo{
+    background-color: #292929;
+    padding: 0.5%;
+}
+
+.legales{
+    font-family: 'Montserrat', sans-serif;
+    color: #F0E7D9;
+}
+
+/*HOME*/
+
+.titulo_home{
+    font-family: 'Fanwood'; 
+    text-align: center;
+    color: #F0E7D9;
+}
+
+.subtitulo_home{
+    font-family: 'Montserrat'; 
+    font-weight: 500;
+    color: #8DA47C;
+    text-align: center;
+}
+
+.boton_slider{
+    background-color: #8DA47C;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    outline: none;
+    color: #F0E7D9;
+    border: none; 
+    border-radius: 0;
+    margin-left: 50%; 
+}
+
+.home_estudio{
+    background-color: #5F774D;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.subtitulo_estudio{
+    font-family: 'fanwood-italic'; 
+    text-align: left;
+    color: #F0E7D9;
+    line-height:100%;
+}
+
+.subtitulo_parrafo{
+    font-family: 'Montserrat', sans-serif;
+    color: #F0E7D9;
+}
+
+.boton_margin{
+    margin-bottom: 5%;   
+}
+
+.fondo_crema{
+    background-color: #F0E7D9;
+    
+}
+
+.padding_{
+    padding: 5%;
+}
+
+.titulo_servicios{
+    font-family: 'Montserrat'; 
+    font-size: 120%;
+    color: #F0E7D9;
+    text-align: center;
+    line-height: 95%;
+}
+
+.imagen_home{
+    background-image: url(assest/img/Home_gestoria.png);
+}
+
+.imagen_home_2{
+    background-image: url(assest/img/Home_servicios\ jurídicos.png);
+}
+
+.subtitulo_servicios{
+    font-family: 'fanwood'; 
+    text-align: center;
+    color: #F0E7D9;
+    line-height:100%;
+    margin-bottom: 30%;
+
+}
+
+.parrafo_crema{
+    font-family: 'Montserrat'; 
+    color: #F0E7D9;
+    line-height: 120%;
+}
+
+.subtitulo_opiniones{
+    font-family: 'fanwood'; 
+    text-align: center;
+    color: #5F774D;
+    line-height:100%;
+
+}
+.nombres_opiniones{
+    font-family: 'Montserrat'; 
+    /*font-size: 120%;*/
+    color: #5F774D;
+    text-align: left;
+
+}
+
+.fondo_azul{
+    background-color: #01406B;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+.opiniones_parrafos{
+    font-family: 'Montserrat'; 
+}
+
+.subtitulo_news{
+    font-family: 'fanwood-italic'; 
+    text-align: center;
+    color: #F0E7D9;
+}
+
+.boton_news{
+    display: block;
+}
+
+/*SUBSECCIONES*/
+
+.encabezado_subsecciones{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo_subsecciones{
+    font-family: 'Fanwood'; 
+    color: #F0E7D9;
+    font-size: 60px;
+    line-height:100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIn; 
+    animation-duration: 2s; 
+}
+/* QUIENES SOMOS*/
+
+
+.fondo_crema_mision{
+    background-color: #F0E7D9;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+}
+
+.txt_mision{
+    font-family: 'Montserrat'; 
+    color: #01406B;
+    text-align: center;
+
+}
+
+.nombre_ceo{
+    font-family: 'Montserrat'; 
+    color: #F0E7D9;
+    text-align: left;
+
+}
+
+.parrafo_gris{
+    font-family: 'Montserrat', sans-serif;
+    color: #292929;
+}
+
+/*INFOGRAFIA*/
+.infografia {
+   margin-top: 0%;
+}
+
+.counter-box {
+    display: block;
+    background: #f6f6f6;
+    padding: 40px 20px 37px;
+    text-align: center
+    
+}
+
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2
+}
+
+.counter {
+    display: block;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
+}
+
+.counter-box.colored {
+    background: #C1B4A4;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
+}
+
+
+/*SERVICIOS JURIDICOS*/
+
+.padding_contenedor
+{padding-top: 3%;
+padding-bottom: 3%;
+}
+
+.subtitulo_bordo_servicios_gestoria{
+    font-family: 'Fanwood'; 
+    text-align: left;
+    color: #551725;
+    font-size: 150%;
+}
+
+/*CONTACTO*/
+.subtitulo_contacto{
+    font-family: 'fanwood'; 
+    text-align: left;
+    color: #5F774D;
+    line-height:100%;
+}
+
+.txt_form{
+    font-family: 'Montserrat'; 
+    color: #434343;
+}
+
+.input{
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    border-bottom: 2px solid #5F774D;
+    background-color: #F0E7D9;
+    
+}
